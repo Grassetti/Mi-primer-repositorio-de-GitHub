@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Blaka+Hollow&display=swap" rel="stylesheet">
     <!-- Icono -->
     <link rel="shortcut icon" href="./img/Guns N' Roses.jpg">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Inicio</title>
@@ -30,7 +32,7 @@
             </ul>
         </div>
         <div class="header">
-            <h1>GUNS N' ROSES</h1>
+            <h1 class="wow animate__animated animate__tada">GUNS N' ROSES</h1>
         </div>
         <div class="section1">
             <img class="imagen1" src="./img/ShowGNR1.jpg" alt="Show Guns">
@@ -58,7 +60,11 @@
             </a>
         </div>
     </div>
-    
+
+    <script src="./js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
